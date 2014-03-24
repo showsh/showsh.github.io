@@ -1,0 +1,282 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	font-family: 'helvetica', sans-serif; 
+	font-size: 18px;
+	font-style: 400;
+	background-image: url(../images/grey.gif);
+	color: #122248;
+	margin: 0 auto;
+} 
+
+header{
+	max-width: 1170px;
+	margin:0 auto;
+	padding-top: 30px;
+}
+
+.small-11{
+	width: 100%;
+}
+
+.line-separator{
+	height:7px;
+	background:#122248;
+	border-bottom:1px solid #122248;
+	width: 100%;
+}
+
+/* Headline Styles */
+
+h1{
+	font-family: 'Helvetica', serif;
+	font-size: 32px;
+	color: #ff8315;
+}
+
+h2{
+	font-size: 18px;
+	font-weight: 600;
+	margin: 0;
+	line-height: 1.5em;
+}
+
+h3{
+	font-family: 'Quando', serif;
+	font-size:24px; 
+	margin: 0;
+	margin-bottom: 30px;
+}
+
+h4{
+	font-family: 'Quando', serif;
+	font-size:18px; 
+	margin: 5%;
+	margin-bottom: 0;
+}
+
+h5{
+	float: right;
+	margin:0;
+}
+/* Paragraph Styles */
+p{
+	line-height: 1.3em;
+	font-weight: 400;
+	color: #2d2a26;
+}
+
+p.quote{
+	font-size: 24px;
+	line-height: 28px;
+	color: #ff8315;
+}
+
+p.blog{
+	font-size: 12pt;
+	margin: 6%;
+	margin-top: 0;
+}
+
+
+/* Link Styles */
+
+ul li {
+	list-style: none;
+}
+
+/* List Styles*/
+
+ul{
+	padding: 0;
+}
+
+section.blog ul li{
+	box-shadow: 0 5px 10px #888;
+}
+
+section.blog ul li{
+	float: left;
+	width: 203px;
+	margin:0;
+	margin-right: 6%;
+	margin-bottom: 80px;
+	height: 340px;
+}
+
+section.blog ul li:last-child{
+	margin-right: 0;
+}
+
+
+/* Anchor Styles */
+a{
+	text-decoration: none;
+	color: #122248;
+	line-height: 0;
+}
+
+a:hover{
+	text-decoration: underline;
+	color: #ff8315; 
+}
+
+a.link {
+	padding: 0;
+	font-weight: 600;
+	font-size: 18px;
+	color: #ff8315;
+}
+
+
+/* Navigation Styles */
+
+
+nav.top ul li{
+	float: right;
+	margin-right: 30px;
+	margin-top: 50px;
+	color: #000;
+	width: 3.2em;
+	font-size: 1.125em;
+	line-height: 3em;
+	border: 1px solid #cdcdcd;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+}
+
+nav.top ul li{
+	margin-left: 5%;
+}
+
+nav.bottom > ul{
+	width: 23%;
+	float: left;
+	margin-bottom: 60px;
+	margin-top: 0;
+}
+
+/* Nav Media Queries */
+
+@media all and (max-width: 1000px){
+	nav.top{
+		width: 100%;
+	}
+
+	nav.top ul li{
+		margin: 0;
+	}
+
+	ul.hide{
+		display: none;
+	}
+
+	nav.bottom ul{
+		width: 100%;
+		float: left;
+		margin-bottom: 60px;
+		margin-top: 0;
+		text-align: center;
+	}
+
+	nav.bottom h2 a{
+		font-size: 18px;
+	}
+
+
+}
+
+/* Section Styles */
+
+section.quote{
+	margin-bottom: 60px;
+	padding-top: 100px;
+}
+
+section.content{
+	width: 60%;
+	margin: 0 auto;
+	height: auto;
+}
+
+section.blog{
+	width: 60%;
+	margin: 0 auto;
+	margin-top: 60px;
+}
+
+section.testimonials{
+	margin: 0 auto;
+	height: auto;
+}
+
+/* Articles */
+
+article.left{
+	float: left;
+	width: 48%;
+	margin-right: 4%;
+}
+
+article.right{
+	float: left;
+	width: 48%;
+}
+
+
+/* Wrapper */
+
+div.wrapper{
+	width: 100%;
+	background-color: #fff;
+	border: 1px solid rgb(229, 229, 229);
+	overflow: hidden;
+	padding-top: 60px;
+	padding-bottom: 65px;
+}
+
+/* Footer */
+footer{
+	height: 62px;
+	width: 60%;
+	margin: 0 auto;
+	background color: #f2f2f2;
+}
+
+/* Testimonials */
+#quotes
+{
+	margin:0 auto;
+	width: 60%;
+	padding-top: 1.5em;
+
+}
+.textItem
+{
+	display:none;
+	font-family: 'Quando', serif;
+	font-size: 24px;
+	font-weight: lighter;
+	line-height: 1.5em;
+	color: #000;
+}
+
+p#author{
+	color:#ff8315;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 18pt;
+	float: right;
+	padding-top: 1.5em;  
+}
+
+a
+{
+	color:#000;
+	font-size:15px;
+}
+

@@ -100,29 +100,6 @@ h1{
 	color: white;
 }
 
-.options{
-	background-color: #23272A;
-	color: #777;
-	padding: none;
-}
-
-.options li{
-	border-top: 2px solid #555;
-	color: #777;
-	font: 700 15px/14px PT sans, sans-serif;
-	cursor: pointer;
-	padding-top: 10px;
-}
-
-.options li:hover{
-	background-color: #007095;
-	color: white;
-	-webkit-transition: background-color 300ms ease-out;
-	-moz-transition: background-color 300ms ease-out;
-	transition: background-color 300ms ease-out;
-	-webkit-appearance: none;
-}
-
 
 .button{
 	background-color: #b70025;

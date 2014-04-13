@@ -5,6 +5,11 @@ body{
 	-webkit-font-smoothing: antialiased;
 }
 
+
+.logo{
+	margin:0;
+	padding:0;
+}
 h1{
 	font-size: 28px;
 	color: #b70025;
@@ -13,6 +18,11 @@ h1{
 
 .team h4{
 	color: #b70025;
+	line-height: 2.2em;
+}
+
+.bio{
+	padding-bottom: 10%;
 }
 
 #home { 
@@ -206,11 +216,6 @@ h1{
 	text-align: center;
 	padding-top: 5%;
 	padding-bottom: 3%;
-}
-
-.team{
-	padding-right: 5%;
-	padding-left: 5%;
 }
 
 .contact{

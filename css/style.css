@@ -1,71 +1,116 @@
 body{
-	font-family: 'PT Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	line-height: 1.6em;
 	font-size: 14px;
+	-webkit-font-smoothing: antialiased;
 }
 
 h1{
 	font-size: 28px;
+	color: #b70025;
+	font-weight: 300;
 }
 
+.team h4{
+	color: #b70025;
+}
+
+#home { 
+	background-color: #b70025;  min-height: 260px; 
+	-webkit-background-size: cover;
+	margin: 0 auto; 
+	position: relative; 
+	max-height: 480px;
+	font-weight: 300;
+}
+
+#home article { 
+	height: 200px; 
+	position: absolute; 
+	top: 80px; 
+	width: 100%;
+	font-size: 28px;
+	line-height: 1.5em;
+	color: white; 
+}
+
+#home2 { 
+	background-color: #b70025;  min-height: 160px; 
+	-webkit-background-size: cover;
+	margin: 0 auto; 
+	position: relative; 
+	max-height: 480px;
+	font-weight: 300;
+}
+
+#home2 article { 
+	height: 200px; 
+	position: absolute; 
+	top: 60px; 
+	width: 100%;
+	font-size: 28px;
+	line-height: 1.5em;
+	color: white; 
+}
 .contain-to-grid{
-	background-color: #23272A;
-	border-bottom: 2px solid #555;
-		position: fixed;
-		z-index: 9000;
-		height: 70px;
-		padding-top: 10px;
-		
+	background: white;
+	z-index: 9000;
+	height: 100px;
+	padding-top: 25px;
+
+}
+
+.top-bar-section li:not(.has-form) a:not(.button){
+	background: white;
+	color: #b70025;
+	background: url();
+	font-family: 'PT Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	-webkit-font-smoothing: antialiased;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button):hover{
+	background-color: white;
+	cursor: pointer;
+	color: #073c52;
 }
 
 .top-bar{
-	background-color: #23272A;
-	letter-spacing: 3px;
+	background-color: white;
 	z-index: 9000;
+	padding: 0 20px;
+}
+
+.top-bar li{
+	background-color: white;
+
 }
 
 .philosophy{
 	height: auto;
 	padding-top: 5%;
-	border-bottom: 1px solid #555;
 }
 
 .services{
-	margin-top: 3%;
-	margin-bottom: 3%;
+	padding-top: 3%;
+	padding-bottom: 5%;
 }
-
 .services a li{
 	color: white;
 }
 
 .options{
-	height: auto;
 	background-color: #23272A;
-	border: 7px solid #555;
 	color: #777;
-	text-transform: uppercase;
-	position: relative;
-	overflow: hidden;
+	padding: none;
 }
 
 .options li{
-	list-style: none;
-	background-color: #23272A;
 	border-top: 2px solid #555;
 	color: #777;
 	font: 700 15px/14px PT sans, sans-serif;
-	text-transform: uppercase;
-	letter-spacing: 3px;
 	cursor: pointer;
-	float:right;
-	position:absolute;
-	bottom:0;
-	right:0;
-	clear:right;
-	width: 100%;
-	background-color: white;
-	text-indent: 5%;
 	padding-top: 10px;
 }
 
@@ -80,31 +125,33 @@ h1{
 
 
 .button{
-	background-color: #23272A;
-	border: 2px solid #555;
-	color: #777;
+	background-color: #b70025;
+	color: white;
 	font: 700 15px/14px PT sans, sans-serif;
-	text-transform: uppercase;
 	letter-spacing: 3px;
 	cursor: pointer;
+	padding:0 16px;
+}
+
+.button:hover{
+	background-color: #073c52;
 }
 
 .services .button{
-	padding-top: 5%;
-	padding-bottom: 5%;
-	background-color: #007095;
-	border: 2px solid white;
+	padding-top: 6%;
+	background-color: #073c52;
+	border: 1px solid white;
 	color: white;
-	text-transform: uppercase;
-	letter-spacing: 3px;
 	cursor: pointer;
-	min-height: 150px;
-	line-height: 1em;
+	min-height: 200px;
+	line-height: 1.2em;
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
 }
 
 .services .button:hover{
-	background-color: #23272A;
-	border: 2px solid #555;
+	background-color: #b70025;
 }
 
 .panel1 a.button-fr, .panel1 a.button-fr:visited {
@@ -198,12 +245,13 @@ h1{
 }
 
 .panel{
-	border-bottom: 1px solid #555;
 	padding-bottom: 3%;
+	background-color: #e8e8e8;
 }
 
 .fa{
 	margin: 5%;
+	font-size: 24px;
 }
 
 .nav{
@@ -216,3 +264,50 @@ h1{
 	padding: 50px;
 	color: white;
 }
+
+
+.hero{
+	height: 280px;
+	background-color: #23272A;
+	border-bottom: 1px solid #555;
+}
+
+.menu{
+	background-color: #233441;
+	color: white;
+	font-size: 16px;
+	display: block;
+	text-align: center;
+	border-bottom: 1px solid #555;
+}
+
+.menu strong{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.menu li{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.fa .fa-chevron-circle-left{
+	float: left;
+}
+
+.fa .fa-chevron-circle-right{
+	float: right;
+}
+
+#btn{
+	height: 40px;
+	line-height: 2.7em;
+	padding-right: 5px !important;
+	-webkit-border-radius: 60px;
+	-moz-border-radius: 60px;
+	-ms-border-radius: 60px;
+	-o-border-radius: 60px;
+	border-radius: 60px;
+	border: none;
+}
+

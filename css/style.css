@@ -251,8 +251,15 @@ h4{
 }
 
 .content{
-	margin-top: 2%;
+	padding: 2% 0;
+	background-color: #F6F6F6;
 }
+
+.content img{
+	width: 100%;
+	margin:2% 0;
+}
+
 
 .panel{
 	margin-top: 2%;
@@ -335,6 +342,10 @@ margin-bottom: 20px;
 		padding-bottom: 10%;
 		padding-top: 10%;
 		font-size: 18px;
+	}
+
+	li #button{
+		text-align: center;
 	}
 
 }

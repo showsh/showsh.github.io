@@ -56,8 +56,8 @@ h3{
 }
 
 .top-bar-section li:not(.has-form) a:not(.button):hover {
-	background: white;
-	color: #073c52;
+	background: #b70025;
+	color: white ;
 }
 
 .title-area{
@@ -66,18 +66,19 @@ h3{
 
 .home{
 	padding:4% 0;
-	background-color: #b70025;
+	background-color: #073c52; 
 	color: white;
 }
 
 .home2{
 	padding:3% 0;
-	margin: 1% 0;
-	margin-bottom: 2%;
+	margin: 5% 0;
+	margin-bottom: 5%;
+	background-color: #073c52; 
 }
 
 .home2 h1{
-	color: #b70025;
+	color: white;
 	text-align: center;
 }
 
@@ -93,6 +94,7 @@ h3{
 	border-radius: 60px;
 	border: none;
 	font-family: 'Open Sans', sans-serif;
+	margin: 0 auto;
 }
 
 #btn:hover{
@@ -102,6 +104,7 @@ h3{
 .content{
 	margin: 2% 0;
 }
+
 
 .about-us{
 	margin: 2% 0;
@@ -125,11 +128,11 @@ h3{
 }
 
 .button{
-	background-color: #073c52;
+	background-color: #b70025;
 }
 
 .button:hover{
-	background-color: #b70025;
+	background-color: #073c52;
 }
 
 .panel{
@@ -178,7 +181,7 @@ nav li{
 
 .home3{
 	padding:4% 0;
-	background-color: #b70025;
+	background-color: #073c52; 
 	color: white;
 }
 
@@ -209,7 +212,7 @@ nav li{
 }
 
 .content #btn {
-	margin: 10px 0;
+	margin: 0px auto;
 }
 
 .title{
@@ -257,7 +260,7 @@ nav li{
 	.content .button{
 		width: 80%;
 		display: table;
-		margin: 10px auto;
+		margin: 0px auto;
 	}
 
 	.top-bar-section li:not(.has-form) a:not(.button) {
